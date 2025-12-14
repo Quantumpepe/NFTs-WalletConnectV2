@@ -2,13 +2,96 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/NFTs-WalletConnectV2/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>tbp-nft-dapp</title>
-    <script type="module" crossorigin src="/NFTs-WalletConnectV2/assets/index-BBWR77Gg.js"></script>
-    <link rel="stylesheet" crossorigin href="/NFTs-WalletConnectV2/assets/index-XlyKSLnJ.css">
+    <title>TBP-AI NFTs — Gold & Silver</title>
+
+    <!-- Optional: gleiche Retro-Font wie viele deiner Seiten -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="/NFTs-WalletConnectV2/assets/index-zJjPzFnV.js"></script>
+    <link rel="stylesheet" crossorigin href="/NFTs-WalletConnectV2/assets/index-536LiWar.css">
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <header class="topbar">
+        <div class="brand">
+          <!-- Logo kommt aus /public -->
+          <img class="logo" src="/tbp-ai-logo.png" alt="TBP-AI" onerror="this.style.display='none'"/>
+          <div class="brandText">
+            <div class="brandTitle">TBP-AI NFTs</div>
+            <div class="brandSub">Gold & Silver Access Pass</div>
+          </div>
+        </div>
+
+        <button id="connectBtn" class="btn btn-ghost">
+          Connect Wallet
+        </button>
+      </header>
+
+      <main class="container">
+        <section class="hero">
+          <h1>TurboPepe-AI NFT Program</h1>
+          <p class="muted">
+            Two NFT tiers. Same collection universe. Different perks.
+            Public sale opens later — right now this page is the official mint gateway for holders.
+          </p>
+
+          <div class="cards">
+            <article class="card gold">
+              <h2>Gold NFT</h2>
+              <p>
+                Premium tier. Built for future TBP-AI utilities:
+                gated access, upgrades, exclusive drops and upcoming AI features.
+              </p>
+
+              <div class="meta">
+               
+                <div><span class="k">Network:</span> <span class="v">Polygon</span></div>
+              </div>
+
+              <button id="mintGoldBtn" class="btn btn-gold">
+                Buy / Mint Gold NFT
+              </button>
+            </article>
+
+            <article class="card silver">
+              <h2>Silver NFT</h2>
+              <p>
+                Entry tier. Designed to grow the TBP-AI community and unlock future
+                basic utilities and access perks.
+              </p>
+
+              <div class="meta">
+                
+                <div><span class="k">Network:</span> <span class="v">Polygon</span></div>
+              </div>
+
+              <button id="mintSilverBtn" class="btn btn-silver">
+                Buy / Mint Silver NFT
+              </button>
+            </article>
+          </div>
+        </section>
+
+        <section class="info">
+          <h3>Future Vision</h3>
+          <ul>
+            <li>AI-powered community tools & gated features (coming later)</li>
+            <li>Upgradeable utilities: access keys, exclusive content, drops</li>
+            <li>Transparent contracts & clean metadata</li>
+          </ul>
+
+          <p class="foot">
+            Note: “AI features” are planned utilities delivered via TBP-AI services and gated access, not an on-chain AI inside the NFT itself.
+          </p>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div>© TBP-AI — Official NFT Mint Page</div>
+      </footer>
+    </div>
+
   </body>
 </html>
